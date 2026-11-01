@@ -7,7 +7,7 @@ const QUOTATION_TERMS = {
 };
 
 
-const WA="6282336939662";
+const WA="6289681992892";
 const modal=document.getElementById("modal"), toast=document.getElementById("toast");
 function showToast(t){toast.textContent=t;toast.classList.add("show");clearTimeout(window.nxToast);window.nxToast=setTimeout(()=>toast.classList.remove("show"),2600)}
 function scrollContact(){document.getElementById("contact").scrollIntoView({behavior:"smooth",block:"start"});setTimeout(()=>document.getElementById("leadMessage").focus(),650)}
